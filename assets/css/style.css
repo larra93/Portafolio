@@ -132,6 +132,11 @@ nav .navbar-nav li a{
   font-family: 'Goblin One';
 }
 
+@media screen and (max-width: 420px){
+  .fx{
+    font-size: 9px;
+}
+}
 
 .text-header {
   min-height: 100vh;
@@ -148,10 +153,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  padding: 60px 0;
-  overflow: hidden;
-}
+
 
 .section-title {
   text-align: center;
